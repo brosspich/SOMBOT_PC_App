@@ -1,0 +1,9 @@
+name: sombot_workspace
+
+packages:
+  - modules/**  # Looks inside the modules folder for packages
+
+scripts:
+  bootstrap: melos bootstrap
+  analyze: flutter analyze .
+  test: flutter test

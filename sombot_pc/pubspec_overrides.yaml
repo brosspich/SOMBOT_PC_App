@@ -1,0 +1,5 @@
+dependency_overrides:
+  core_ui:
+    path: modules/core_ui
+  core_utils:
+    path: modules/core_utils
