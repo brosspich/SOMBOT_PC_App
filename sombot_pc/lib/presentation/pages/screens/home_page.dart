@@ -2,14 +2,12 @@ import 'dart:convert';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:sombot_pc/data/models/product_model.dart';
-import 'package:sombot_pc/router/app_route.dart';
-import 'package:sombot_pc/utils/colors.dart';
-import 'package:sombot_pc/utils/list_catigory.dart';
-import 'package:sombot_pc/utils/text_style.dart';
+import 'package:sombot_pc/presentation/router/app_route.dart';
+import 'package:sombot_pc/core/config/themes/app_colors.dart';
+import 'package:sombot_pc/data/models/list_catigory.dart';
+import 'package:sombot_pc/core/config/themes/text_style.dart';
 
 @RoutePage()
 class HomePage extends StatefulWidget {

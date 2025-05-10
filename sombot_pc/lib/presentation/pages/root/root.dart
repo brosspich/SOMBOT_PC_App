@@ -1,13 +1,15 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
-import 'package:sombot_pc/pages/home_page.dart';
+import 'package:sombot_pc/presentation/pages/screens/home_page.dart';
 
 @RoutePage()
 class RootPage extends StatefulWidget {
+  const RootPage({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _ExampleState createState() => _ExampleState();
 }
 
@@ -61,8 +63,8 @@ class _ExampleState extends State<RootPage> {
               gap: 8,
               activeColor: Colors.black,
               iconSize: 24,
-              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-              duration: Duration(milliseconds: 400),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+              duration: const Duration(milliseconds: 400),
               tabBackgroundColor: Colors.pink[100]!,
               color: Colors.black,
               tabs: const [

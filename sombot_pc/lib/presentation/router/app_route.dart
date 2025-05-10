@@ -1,13 +1,13 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:sombot_pc/authentication/login_page.dart';
-import 'package:sombot_pc/authentication/signUp_page.dart';
-import 'package:sombot_pc/authentication/splash.dart';
+import 'package:sombot_pc/presentation/pages/login_signup/login_page.dart';
+import 'package:sombot_pc/presentation/pages/login_signup/signUp_page.dart';
+import 'package:sombot_pc/presentation/pages/splash/splash.dart';
 import 'package:sombot_pc/data/models/product_model.dart';
-import 'package:sombot_pc/pages/detail_page.dart';
-import 'package:sombot_pc/pages/home_page.dart';
+import 'package:sombot_pc/presentation/pages/root/detail_page.dart';
+import 'package:sombot_pc/presentation/pages/screens/home_page.dart';
 
-import '../pages/root.dart';
+import '../pages/root/root.dart';
 
 part 'app_route.gr.dart';
 

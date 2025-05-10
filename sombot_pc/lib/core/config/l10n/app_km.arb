@@ -1,0 +1,9 @@
+{
+  "@@locale": "km",
+  "language": "ភាសាខ្មែរ",
+  "@language": {
+    "description": "ភាសាបច្ចុប្បន្ន"
+  },
+  "login": "ចូលគណនី",
+  "@login": {}
+}

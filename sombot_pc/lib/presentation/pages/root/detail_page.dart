@@ -1,13 +1,12 @@
 import 'dart:convert';
 
 import 'package:auto_route/auto_route.dart';
-import 'package:carousel_slider/carousel_options.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sombot_pc/data/models/product_model.dart';
 
 @RoutePage()
+// ignore: must_be_immutable
 class DetailScreen extends StatefulWidget {
   DetailScreen({super.key, this.productModel});
   ProductsModel? productModel;
@@ -219,7 +218,6 @@ class _DetailScreenState extends State<DetailScreen> {
                     ],
                   ),
                   const SizedBox(height: 10),
-                  
                 ],
               ),
             )
@@ -230,6 +228,7 @@ class _DetailScreenState extends State<DetailScreen> {
   }
 }
 
+// ignore: must_be_immutable
 class CarouselDemo extends StatelessWidget {
   CarouselDemo({super.key, required this.imageUrls});
 
